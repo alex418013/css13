@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* Creado por Alejandro Sánchez Folgado */
+
+body {
+    background-color: #95E1FF;
+    font-family: sans-serif;
+  }
+  
+  div {
+    background-color: lightyellow;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 50%;
+  }
+  
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.enero table {
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  div.enero caption {
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+  
+  div.enero td {
+    width: 50pc;
+    border-bottom: #F1E8E6 0.15px solid;
+    border-collapse: collapse
+  }
+  
+  div.enero th {
+    width: 50px;
+  }
+  
+  div.febrero table {
+    border-collapse: collapse;
+    text-align: right;
+  }
+  div.febrero caption {
+    font-weight: bold;
+    text-align: right;
+  }
+  div.febrero th {
+    padding-right: 5px;
+  }
+  div.febrero td {
+    font-size: 150%;
+    padding-right: 5px;
+    width: 24px;
+  }
+  
+  div.marzo table {
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  div.marzo caption {
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  div.marzo th {
+    text-align: center;
+  }
+  div.marzo td {
+    width: 60px;
+    height: 60px;
+    padding-left: 5px;
+    font-size: 70%;
+    vertical-align: top;
+    border: black 1px solid;
+  }
